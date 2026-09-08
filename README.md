@@ -55,10 +55,10 @@ El motor de cálculo utiliza el siguiente desglose matemático:
    $$\text{Costo Base} = \text{Costo Material} + \text{Costo Electricidad} + \text{Desgaste Máquina}$$
 
 6. **Margen de Error**:
-   $$\text{Margen de Error (\$)} = \text{Costo Base} \times \left(\frac{\text{Margen de Error (\%)}}{100}\right)$$
+   $$\text{Margen de Error} = \text{Costo Base} \times \left(\frac{\text{Porcentaje de Margen}}{100}\right)$$
 
 7. **Costo de Producción Total**:
-   $$\text{Costo Producción} = \text{Costo Base} + \text{Margen de Error (\$)} + \text{Insumos Extra}$$
+   $$\text{Costo Producción} = \text{Costo Base} + \text{Margen de Error} + \text{Insumos Extra}$$
 
 8. **Total a Cobrar**:
    $$\text{Total a Cobrar} = \text{Costo Producción} \times \text{Multiplicador de Ganancia}$$
