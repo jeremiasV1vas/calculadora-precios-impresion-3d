@@ -9,6 +9,7 @@
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview",
+    "test": "node --test",
     "electron:dev": "concurrently -k \"cross-env BROWSER=none vite\" \"wait-on http://localhost:5173 && electron electron/main.js\""
   },
   "dependencies": {
